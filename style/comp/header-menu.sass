@@ -1,0 +1,120 @@
+@import "../../scss/global"
+
+.high-screen-header
+  form
+    position: relative
+  .header-link
+    font-size: 13px
+    color: black
+    i
+      margin-right: 5px
+      display: inline-block
+
+.header-menu
+  background: linear-gradient(40deg, #101844, #18297b)
+
+  /*nav
+    border-bottom: 1px solid #efefef*/
+
+  .menu-item
+    padding: 20px 15px
+    font-size: 13px
+    margin: 0
+    font-weight: bold
+    color: #dddddd
+    &:hover
+      color: #bebebe
+      text-decoration: none !important
+
+
+.secondary-menu
+  .secondary-menu-item
+    display: inline-block
+    padding: 8px 12px
+    margin: 0
+    color: #010103
+    //font-weight: bold
+    letter-spacing: 0.04em
+    font-size: 13px
+    border-radius: 3px
+    -webkit-transition: all .2s
+    -moz-transition: all .2s
+    -ms-transition: all .2s
+    -o-transition: all .2s
+    transition: all .2s
+    &:hover
+      background-color: #ececec
+      text-decoration: none !important
+
+.toolbar
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 100
+  background: linear-gradient(40deg, #101844, #18297b)
+
+  .logo
+    height: 50px
+    display: inline-block
+    padding: 5px
+    margin: 0
+
+  .action-button
+    height: 50px
+    width: 50px
+    padding: 10px
+    margin-left: 10px
+    display: inline-block
+    cursor: pointer
+    font-size: 30px
+    line-height: 30px
+    color: white
+
+.small-menu
+  position: fixed
+  background: white
+  padding: 50px 0
+  margin: 0
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  z-index: 99
+  overflow: auto
+
+  form
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    input[type=text]
+      width: 100%
+      margin: 0 !important
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      box-sizing: border-box
+      &:focus
+        width: 100% !important
+
+    position: relative
+
+  .menu-section
+    padding: 15px 10px
+
+  .header-link
+    font-size: 13px
+    color: black
+    i
+      margin-right: 5px
+      display: inline-block
+  .menu-item
+    display: block
+    width: 100%
+    padding: 5px 10px
+    font-size: 15px
+    color: black
+    font-weight: bold
+    text-align: center
+    &:hover
+      color: #2b2b2b

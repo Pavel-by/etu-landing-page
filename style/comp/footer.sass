@@ -1,0 +1,70 @@
+@import "../../scss/foundation"
+
+footer
+  margin: 0
+  padding: 70px 0
+
+  .footer-section
+    padding: 10px 30px
+    margin: 0
+    font-size: 13px
+    color: #585858
+    .footer-logo
+      font-size: 17px !important
+      font-weight: bold
+      margin: 10px 0
+      color: #000000
+    .footer-logo-img
+      width: 60px
+      display: inline-block
+      padding: 0
+      margin: 10px
+
+    .footer-section-header
+      margin: 5px 0
+      color: inherit
+      font-size: 15px
+      font-family: Monospaced, sans-serif
+      text-align: inherit
+
+    ul
+      list-style-type: none
+      padding: 10px 0 0 0
+      margin: 0
+      font-size: inherit
+      color: inherit
+      text-align: inherit
+      li
+        color: inherit
+        padding: 8px 0
+        margin: 0
+        font-size: inherit
+        line-height: 14px
+        text-align: inherit
+        .footer-link
+          color: inherit
+          padding: 0
+          margin: 0
+          font-size: inherit
+          line-height: 14px
+          &:hover
+            color: blue
+
+    @media (max-width: map-get($breakpoints, 'medium'))
+      text-align: left
+  .social-link
+    font-size: 18px
+    color: #515151
+    display: inline-block
+    padding: 0
+    margin: 4px 10px
+    .fa-vk:hover
+      color: #4a76a8 !important
+    .fa-twitter:hover
+      color: #1ac7d8 !important
+    .fa-youtube:hover
+      color: red !important
+    .fa-facebook-f:hover
+      color: #3b5998 !important
+    .fa-instagram:hover
+      color: #ff7ea3 !important

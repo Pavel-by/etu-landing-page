@@ -1,0 +1,222 @@
+@import '../scss/foundation'
+@import "open-sans.css"
+@import "comp/header-menu"
+@import "comp/input"
+@import "comp/slider"
+@import "comp/card-advantage"
+@import "comp/footer"
+@import comp/news
+
+@include foundation-typography-helpers
+@include foundation-flex-classes
+@include foundation-flex-grid
+@include foundation-menu
+@include foundation-global-styles
+@include foundation-typography
+@include foundation-card
+@include foundation-table(true)
+@include foundation-grid
+@include foundation-xy-grid-classes()
+@include foundation-visibility-classes
+
+
+%gray-on-hover:hover
+  background-color: $light-gray
+  cursor: pointer
+
+body, html
+  padding: 0
+  margin: 0
+  font-family: "Open Sans", sans-serif
+  background-color: white
+
+main
+  @media (max-width: map-get($breakpoints, 'large') )
+    padding-top: 50px
+
+h2
+  font-size: 20px !important
+  font-weight: bold
+  padding-bottom: 15px
+  border-bottom: 1px solid #eaeaea
+
+h3
+  font-size: 16px !important
+  font-weight: bold
+
+h4
+  font-size: 14px !important
+  font-weight: bold
+
+p
+  font-size: 14px
+  text-align: justify !important
+
+ul li,
+ol li
+  font-size: 14px
+
+a
+  &:hover
+    text-decoration: underline !important
+
+.partner
+  height: 40px
+  padding: 0
+  display: block
+  margin: auto
+
+.logo-icon
+  height: 45px
+  padding: 5px
+  display: inline-block
+  margin: 0
+
+.logo-5-100
+  position: absolute
+  top: -3px
+  height: calc(100% + 6px)
+  right: 10px
+  padding: 0 20px
+  border: 1px solid #f6f6f6
+  background-color: white
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1)
+  vertical-align: middle
+  border-radius: 3px/20px
+  line-height: 55px
+  box-sizing: border-box
+  img
+    display: inline-block
+    padding: 0
+    maring: 0
+    height: 30px
+    vertical-align: middle
+
+.header-time-block
+  font-size: 13px
+  color: $dark-gray
+  padding: 0 10px
+  vertical-align: middle
+  margin: 0
+  display: inline-block
+  line-height: 13px
+  &.white
+    color: white
+
+.full-height
+  height: 100%
+
+.limit-block
+  width: 100%
+  max-width: 1200px
+  margin: auto
+  position: relative
+  clear: both
+
+.inline-block
+  display: inline-block
+
+.content-indent
+  width: calc(100% - 20px)
+  margin: 0 10px
+
+.language-block
+  @extend %gray-on-hover
+  padding: 5px 10px 5px 10px
+  margin: 0
+  display: inline-block
+  vertical-align: middle
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  border-radius: 3px
+  img
+    height: 13px
+    margin: 0
+    padding: 0
+    display: inline-block
+    vertical-align: middle
+  span
+    padding: 0
+    display: inline-block
+    vertical-align: middle
+    font-size: 13px
+    line-height: 13px
+
+.page-section
+  padding: 30px 0
+
+.page-section-header
+  margin: 0 0 20px 0
+  color: #0b1127
+  z-index: 1
+  border-bottom: 1px solid #eaeaea
+  padding-bottom: 15px
+  h2
+    border: none
+    margin: 0
+    padding-right: 20px !important
+    padding-bottom: 0 !important
+  p
+    padding: 0
+    margin: 5px 0 0 0
+    color: #6e6e6e
+    font-size: 14px
+    text-align: left !important
+
+.pre-coming-block
+  padding: 10px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  &:first-child
+    @media (min-width: map-get($breakpoints, 'medium'))
+      padding-left: 20px
+  &:last-child
+    @media (min-width: map-get($breakpoints, 'medium'))
+      padding-right: 20px
+  .coming-block
+    width: 100%
+    height: 100%
+    background: white
+    display: inline-block
+    //background: linear-gradient(40deg, #f4f4f4, #fcfcfc)
+    border-radius: 3px
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    @media (max-width: map-get($breakpoints, 'medium'))
+      padding: 10px 0
+      border: none
+    @media (min-width: map-get($breakpoints, 'medium'))
+      border: 1px solid #e4e4e4
+      padding: 30px 15px 5px 15px
+
+.right-divider
+  padding-right: 15px
+  border-right: 1px solid #e1e4e8
+
+.vertical-divider
+  padding-right: 15px
+  padding-left: 15px
+  border-right: 1px solid #e1e4e8
+  border-left: 1px solid #e1e4e8
+
+.button-additional-info
+  font-size: 12px
+  line-height: 13px
+  margin: 10px 10px 10px 0
+  color: #565656
+
+.link-label
+  font-size: 13px
+  padding: 3px 7px
+  background-color: #f1f8ff
+  color: #0366d6
+  display: inline-block
+  margin: 2px
+  border-radius: 3px
+  letter-spacing: -0.02em
+  &:hover
+    background-color: #def
+    text-decoration: none !important
+

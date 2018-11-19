@@ -1,0 +1,108 @@
+.high-screen-header form {
+  position: relative; }
+.high-screen-header .header-link {
+  font-size: 13px;
+  color: black; }
+  .high-screen-header .header-link i {
+    margin-right: 5px;
+    display: inline-block; }
+
+.header-menu {
+  background: linear-gradient(40deg, #101844, #18297b);
+  /*nav
+   * border-bottom: 1px solid #efefef */ }
+  .header-menu .menu-item {
+    padding: 20px 15px;
+    font-size: 13px;
+    margin: 0;
+    font-weight: bold;
+    color: #dddddd; }
+    .header-menu .menu-item:hover {
+      color: #bebebe;
+      text-decoration: none !important; }
+
+.secondary-menu .secondary-menu-item {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0;
+  color: #010103;
+  letter-spacing: 0.04em;
+  font-size: 13px;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+  .secondary-menu .secondary-menu-item:hover {
+    background-color: #ececec;
+    text-decoration: none !important; }
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: linear-gradient(40deg, #101844, #18297b); }
+  .toolbar .logo {
+    height: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0; }
+  .toolbar .action-button {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 30px;
+    color: white; }
+
+.small-menu {
+  position: fixed;
+  background: white;
+  padding: 50px 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  overflow: auto; }
+  .small-menu form {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative; }
+    .small-menu form input[type=text] {
+      width: 100%;
+      margin: 0 !important;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .small-menu form input[type=text]:focus {
+        width: 100% !important; }
+  .small-menu .menu-section {
+    padding: 15px 10px; }
+  .small-menu .header-link {
+    font-size: 13px;
+    color: black; }
+    .small-menu .header-link i {
+      margin-right: 5px;
+      display: inline-block; }
+  .small-menu .menu-item {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-align: center; }
+    .small-menu .menu-item:hover {
+      color: #2b2b2b; }
+
+/*# sourceMappingURL=header-menu.css.map */

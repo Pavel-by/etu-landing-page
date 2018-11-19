@@ -1,0 +1,73 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.5.0
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+footer {
+  margin: 0;
+  padding: 70px 0; }
+  footer .footer-section {
+    padding: 10px 30px;
+    margin: 0;
+    font-size: 13px;
+    color: #585858; }
+    footer .footer-section .footer-logo {
+      font-size: 17px !important;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #000000; }
+    footer .footer-section .footer-logo-img {
+      width: 60px;
+      display: inline-block;
+      padding: 0;
+      margin: 10px; }
+    footer .footer-section .footer-section-header {
+      margin: 5px 0;
+      color: inherit;
+      font-size: 15px;
+      font-family: Monospaced, sans-serif;
+      text-align: inherit; }
+    footer .footer-section ul {
+      list-style-type: none;
+      padding: 10px 0 0 0;
+      margin: 0;
+      font-size: inherit;
+      color: inherit;
+      text-align: inherit; }
+      footer .footer-section ul li {
+        color: inherit;
+        padding: 8px 0;
+        margin: 0;
+        font-size: inherit;
+        line-height: 14px;
+        text-align: inherit; }
+        footer .footer-section ul li .footer-link {
+          color: inherit;
+          padding: 0;
+          margin: 0;
+          font-size: inherit;
+          line-height: 14px; }
+          footer .footer-section ul li .footer-link:hover {
+            color: blue; }
+    @media (max-width: 640px) {
+      footer .footer-section {
+        text-align: left; } }
+  footer .social-link {
+    font-size: 18px;
+    color: #515151;
+    display: inline-block;
+    padding: 0;
+    margin: 4px 10px; }
+    footer .social-link .fa-vk:hover {
+      color: #4a76a8 !important; }
+    footer .social-link .fa-twitter:hover {
+      color: #1ac7d8 !important; }
+    footer .social-link .fa-youtube:hover {
+      color: red !important; }
+    footer .social-link .fa-facebook-f:hover {
+      color: #3b5998 !important; }
+    footer .social-link .fa-instagram:hover {
+      color: #ff7ea3 !important; }
+
+/*# sourceMappingURL=footer.css.map */

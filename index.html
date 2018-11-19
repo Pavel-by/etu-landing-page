@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/slider.js"></script>
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+    <script type="text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+<header>
+    <div class="high-screen-header show-for-large">
+        <div class="limit-block">
+            <div class="grid-x align-middle align-justify content-indent" style="margin-top: 5px; margin-bottom:
+            5px;">
+                <span class="header-time-block align-left">14 Ноября 2018 г. 12 <b>Четная</b> нед.</span>
+                <div class="inline-block grid-x align-middle">
+                    <a href="#" class="header-link"><i class="far fa-calendar-alt"></i>Расписание</a>
+                    <span class="language-block">
+                        <img src="/assets/img/eye-icon.png">
+                    </span
+                    ><span class="language-block">
+                        <img src="/assets/img/russian-icon.png">
+                    </span
+                    ><form type="GET" action="#" class="inline-block"><input class="header-input-search" type="text"
+                                                          placeholder="Поиск...">
+                    <submit class="search-button"><i class="fas fa-search"></i></submit></form>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="limit-block">
+                <nav class="row content-indent align-middle" style="position: relative;">
+                    <img src="/assets/img/etu-logo.svg" class="logo-icon">
+                    <ul class="menu">
+                        <li><a href="#" class="menu-item">Поступающим</a></li>
+                        <li><a href="#" class="menu-item">Студентам</a></li>
+                        <li><a href="#" class="menu-item">Выпускникам</a></li>
+                        <li><a href="#" class="menu-item">Сотрудникам</a></li>
+                        <li><a href="#" class="menu-item">Факультеты и кафедры</a></li>
+                    </ul>
+                    <a href="#" class="logo-5-100">
+                        <img src="/assets/img/5-100.png">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="limit-block page-section show-for-large">
+        <nav>
+            <ul class="menu secondary-menu align-spaced">
+                <li><a href="#" class="secondary-menu-item">Образование</a></li>
+                <li><a href="#" class="secondary-menu-item">Наука</a></li>
+                <li><a href="#" class="secondary-menu-item">Международная деятельность</a></li>
+                <li><a href="#" class="secondary-menu-item">Воспитание и социальная деятельность</a></li>
+                <li><a href="#" class="secondary-menu-item">Повышение квалификации</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="toolbar hide-for-large">
+        <div class="grid-x align-justify align-middle">
+            <a class="inline-block" href="#"><img class="logo" src="/assets/img/etu-logo.svg"></a>
+            <span class="header-time-block white">14 Ноября 2018 г. 12 <b>Четная</b> нед.</span>
+            <div>
+                <span class="action-button button-show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></span>
+                <span class="action-button button-hide-menu" onclick="hideMenu()"
+                      style="display: none"><i class="fas fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="small-menu hide-for-large grid-y align-stretch">
+        <div class="grid-x align-middle align-spaced menu-section">
+            <a href="#" class="header-link"><i class="far fa-calendar-alt"></i>Расписание</a>
+            <a href="#" class="header-link"><i class="far fa-eye"></i>Для слабовидящих</a>
+            <span class="header-link"><i class="fas fa-globe-americas"></i>Язык</span>
+        </div>
+        <div class="menu-section">
+            <form type="GET" action="#" class="inline-block"><input class="header-input-search" type="text"
+                                                                    placeholder="Поиск...">
+                <submit class="search-button"><i class="fas fa-search"></i></submit></form>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <div class="limit-block page-section">
+        <div class="grid-x grid-padding-x full">
+            <div class="large-5 medium-5 small-12">
+                <div class="content-indent ">
+                    <div>
+                        <div class="page-section-header">
+                            <h2>
+                                СПбГЭТУ «ЛЭТИ»
+                            </h2>
+                            <p>Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им. В.И.
+                               Ульянова
+                               (Ленина)</p>
+                        </div>
+                        <!--img src="/assets/img/etu-logo-full-dark.svg" style="width: 100%; margin-bottom: 20px"/-->
+                    </div>
+                    <div>
+                        <p>Университет основан в 1886 году и является старейшим электротехническим вузом Европы. Сегодня
+                           СПбГЭТУ
+                           «ЛЭТИ» – образовательный центр с мировым именем, в котором обучается около 9000 студентов,
+                           проходящих
+                           подготовку по направлениям бакалавриата, специалитета и программам магистратуры.</p>
+                        <button class="button green">Список факультетов</button>
+                    </div>
+                </div>
+            </div>
+            <div class="large-7 medium-7 small-12">
+                <div class="full-height content-indent" style="max-height: 300px">
+                    <div class="slider full-height" id="main-news-slider">
+                        <div class="main-news-item">
+                            <div class="image"
+                                 style="background-image: url(/assets/img/main-news/competition-winners.jpg);"></div>
+                            <div class="text-container">
+                                <h3>Захватили «флаг»<a href="#" class="button-news">Читать дальше</a></h3>
+                                <p>Будущие специалисты по информационной безопасности из ЛЭТИ стали лучшими в
+                                   Санкт-Петербурге</p>
+                            </div>
+                        </div>
+                        <div class="main-news-item">
+                            <div class="image"
+                                 style="background-image: url(/assets/img/main-news/competition-winners.jpg);"></div>
+                            <div class="text-container">
+                                <h3>Захватили «флаг»<a href="#" class="button-news">Подробнее</a></h3>
+                                <p>Будущие специалисты по информационной безопасности из ЛЭТИ стали лучшими в
+                                   Санкт-Петербурге</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="limit-block page-section">
+        <div class="content-indent">
+            <div class="page-section-header grid-x align-left">
+                <h2>Поступающим</h2>
+                <div>
+                    <a class="link-label">Олимпиады школьников</a
+                    ><a class="link-label">День открытых дверей</a
+                    ><a class="link-label">Студенческие олимпиады</a>
+                </div>
+            </div>
+            <p>Университет занимает 8-е место среди технических вузов России и 2-е место среди технических
+               вузов Санкт-Петербурга в рейтинге востребованности вузов в РФ. В 2018 году ЛЭТИ занял 5-е
+               место среди технических вузов России и 2-е место среди технических вузов Санкт-Петербурга по
+               мониторингу качества приема в вузы. По мониторингу трудоустройства выпускников СПбГЭТУ «ЛЭТИ»
+               занимает 1-е место среди технических вузов Санкт-Петербурга.</p>
+        </div>
+        <div class="grid-x align-stretch" id="advantages">
+            <div class="large-2 card-advantage-wrapper">
+                <div class="card-advantage">
+                    <div class="grid-x align-center">
+                        <img src="http://cdn.onlinewebfonts.com/svg/img_506139.png">
+                    </div>
+                    <h4>Военная кафедра</h4>
+                </div>
+            </div>
+            <div class="large-2 card-advantage-wrapper">
+                <div class="card-advantage">
+                    <div class="grid-x align-center">
+                        <img src="https://image.flaticon.com/icons/png/512/39/39748.png">
+                    </div>
+                    <h4>Гранты поддержки</h4>
+                </div>
+            </div>
+            <div class="large-2 card-advantage-wrapper">
+                <div class="card-advantage">
+                    <div class="grid-x align-center">
+                        <img src="https://game-icons.net/icons/delapouite/originals/png/000000/transparent/diploma.png">
+                    </div>
+                    <h4>Программы &laquo;Двух димломов&raquo;</h4>
+                </div>
+            </div>
+            <div class="large-2 card-advantage-wrapper">
+                <div class="card-advantage">
+                    <div class="grid-x align-center">
+                        <img src="https://png.pngtree.com/svg/20160304/dormitory_924980.png">
+                    </div>
+                    <h4>Общежития</h4>
+                </div>
+            </div>
+            <div class="large-2 card-advantage-wrapper">
+                <div class="card-advantage">
+                    <div class="grid-x align-center">
+                        <img src="/assets/img/happy-peoples.png">
+                    </div>
+                    <h4>Досуг студентов</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slider-side-shadow-wrapper" id="coming-block-wrapper">
+            <div class="grid-x" id="coming-block">
+                <div class="cell large-5 medium-6 coming-block pre-coming-block">
+                    <div class="coming-block">
+                        <div class="grid-y align-justify full-height">
+                            <div><h4>Бакалавриат</h4>
+                                <ol>
+                                    <li><a href="#">Гранты поддержки</a> первокурсникам.</li>
+                                    <li>Иногородним предоставляются места в <a href="#">общежитиях университета</a>.
+                                    </li>
+                                    <li>Получите звание лейтенанта запаса, пройдя обучение на <a href="#">военной
+                                                                                                          кафедре</a>
+                                        университета.
+                                    </li>
+                                    <li>Более 20 объединений, студий и клубов <a href="#">организуют досуг</a>
+                                        студентов
+                                        вне
+                                        учёбы.
+                                    </li>
+                                    <li>Выплачивается стипендия, оказывается медицинская и социальная поддержка.
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="grid-x align-middle">
+                                <button class="button green">Подробнее</button>
+                                <p class="button-additional-info">
+                                    +7 812 325-87-05, +7 812 346-29-23<br>
+                                    prcom@etu.ru
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-5 medium-6 coming-block pre-coming-block">
+                    <div class="coming-block">
+                        <div class="grid-y align-justify full-height">
+                            <div>
+                                <h4>Магистратура</h4>
+                                <ol>
+                                    <li>Востребованные и перспективные <a href="#">образовательные программы</a>
+                                        магистров.
+                                    </li>
+                                    <li>Возможность совмещать работу и учёбу. Помощь при трудоустройстве.</li>
+                                    <li>Студентам и поступающим предоставляются места в одном из 7
+                                        <a href="#">общежитий</a>
+                                        университета.
+                                    </li>
+                                    <li>Выплачиваются стипендии, оказывается медицинская и социальная поддержка.
+                                    </li>
+                                    <li><a href="#">Программы двойного диплома</a>. Возможность прохождения
+                                                                                  зарубежных
+                                                                                  стажировок.
+                                    </li>
+                                    <li>Олимпиады и другие <a href="#">мероприятия</a> для поступающих в
+                                        магистратуру.
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="grid-x align-middle">
+                                <button class="button green">Подробнее</button>
+                                <p class="button-additional-info">
+                                    +7 812 325-87-05, +7 964 322-32-87<br>
+                                    prcom@etu.ru
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-5 medium-6 coming-block pre-coming-block">
+                    <div class="coming-block">
+                        <div class="grid-y align-justify full-height">
+                            <div>
+                                <h4>Аспирантура</h4>
+                                <ol>
+                                    <li>Востребованность и перспективность <a href="#">14 направлений подготовки</a>
+                                        аспирантов.
+                                    </li>
+                                    <li>Возможность совмещать работу и учёбу. Помощь при трудоустройстве.</li>
+                                    <li>Обучающимся и поступающим предоставляются места в одном из 7 <a href="#">общежитий
+                                                                                                                 университета</a>.
+                                    </li>
+                                    <li>Выплачиваются стипендии, оказывается медицинская и социальная поддержка.
+                                    </li>
+                                    <li><a href="#s">Программы двойного диплома</a>. Возможность прохождения
+                                                                                   зарубежных
+                                                                                   стажировок.
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="grid-x align-middle">
+                                <button class="button green">Подробнее</button>
+                                <p class="button-additional-info">
+                                    +7 812 346-47-34,<br>
+                                    prcom@etu.ru
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="limit-block page-section">
+        <div class="content-indent">
+            <h2 class="page-section-header">Наши партнеры</h2>
+            <div class="slider" id="partners-block">
+            </div>
+            <script type="text/javascript">
+                var partners = ["eurotex.jpg", "hp.gif", "ibm.jpg", "lg1.JPG", "nrc.jpg",
+                    "philips.jpg", "samsung.jpg", "shos.png", "spi.jpg"];
+                for (var i = 0; i < partners.length; i++) {
+                    $("#partners-block").append($("<div><img class='partner' src='/assets/img/partner/" +
+                        partners[i]
+                        + "'></div>"));
+                }
+            </script>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="limit-block">
+        <div class="grid-x align-justify">
+            <div class="footer-section large-3 medium-12 small-12">
+                <!--h3 class="footer-logo">
+                    СПбГЭТУ «ЛЭТИ»
+                </h3-->
+                <div class="grid-y align-center-middle">
+                    <a href="#" class="inline-block"><img class="footer-logo-img"
+                                                          src="/assets/img/etu-logo-gray.svg"></a>
+                    <div class="grid-x align-center">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section large-3 medium-4 small-6">
+                <h5 class="footer-section-header">Поступающим</h5>
+                <ul>
+                    <li><a class="footer-link">Контакты</a></li>
+                    <li><a class="footer-link">Бакалавриат</a></li>
+                    <li><a class="footer-link">Магистратура</a></li>
+                    <li><a class="footer-link">Аспирантура</a></li>
+                </ul>
+                <div class="show-for-small-only">
+                    <hr>
+                    <h5 class="footer-section-header">Полезные ссылки</h5>
+                    <ul>
+                        <li><a class="footer-link">Нормативные документы</a></li>
+                        <li><a class="footer-link">Сведения об образовательной организации</a></li>
+                        <li><a class="footer-link">Минобрнауки России</a></li>
+                        <li><a class="footer-link">Обработка персональных данных</a></li>
+                        <li><a class="footer-link">Портал трудоустройства</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section large-3 medium-4 small-6 padding-4">
+                <h5 class="footer-section-header">Навигация</h5>
+                <ul>
+                    <li><a class="footer-link">Студентам</a></li>
+                    <li><a class="footer-link">Выпускникам</a></li>
+                    <li><a class="footer-link">Сотрудникам</a></li>
+                    <li><a class="footer-link">Образование</a></li>
+                    <li><a class="footer-link">Наука</a></li>
+                    <li><a class="footer-link">Международная деятельность</a></li>
+                    <li><a class="footer-link">Социальная деятельность</a></li>
+                    <li><a class="footer-link">Повышение квалификации</a></li>
+                </ul>
+            </div>
+            <div class="footer-section large-3 medium-4 hide-for-small-only">
+                <h5 class="footer-section-header">Полезные ссылки</h5>
+                <ul>
+                    <li><a class="footer-link">Нормативные документы</a></li>
+                    <li><a class="footer-link">Сведения об образовательной организации</a></li>
+                    <li><a class="footer-link">Минобрнауки России</a></li>
+                    <li><a class="footer-link">Обработка персональных данных</a></li>
+                    <li><a class="footer-link">Портал трудоустройства</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script type="text/javascript">
+    var sliderMainNews;
+    var sliderPartners;
+    var sliderComing;
+    var sliderAdvantages;
+    function reInit() {
+        var screenWidth = $(window).width();
+
+        if (sliderMainNews == null) {
+            sliderMainNews = $("#main-news-slider").bxSlider({
+                oneToOneTouch: true,
+                auto: true,
+                pause: 6000,
+                autoHover: true,
+                pager: true,
+                speed: 200,
+                infiniteLoop: true,
+                useCSS: false
+            });
+        }
+
+        if (sliderPartners == null) {
+            sliderPartners = $("#partners-block").bxSlider({
+                oneToOneTouch: true,
+                auto: false,
+                hideControlOnEnd: true,
+                maxSlides: 100,
+                slideWidth: 200,
+                moveSlides: 0,
+                pager: false,
+                speed: 200,
+                infiniteLoop: false,
+                useCSS: false
+            });
+
+        }
+
+        if (screenWidth < ScreenSize.medium) {
+            if (sliderComing != null) {
+                sliderComing.destroySlider();
+                sliderComing = null;
+            }
+            $("#coming-block")
+                .removeClass("grid-x")
+                .addClass("grid-y");
+            $("#coming-block-wrapper")
+                .attr("style",  "margin-left: 0")
+                .removeClass("slider-side-shadow-wrapper");
+        } else {
+            $("#coming-block")
+                .addClass("grid-x")
+                .removeClass("grid-y");
+            $("#coming-block-wrapper")
+                .addClass("slider-side-shadow-wrapper")
+                .attr("style",  "margin-left: -10px");
+            if (sliderComing == null) {
+                sliderComing = $("#coming-block")
+                    .bxSlider({
+                        auto: false,
+                        hideControlOnEnd: true,
+                        maxSlides: 100,
+                        slideWidth: 500,
+                        moveSlides: 1,
+                        pager: false,
+                        speed: 200,
+                        infiniteLoop: false,
+                        useCSS: false,
+                        oneToOneTouch: false,
+                        swipeThreshold: 1000,
+                        preventDefaultSwipeX: false
+                    });
+            }
+        }
+
+        if (screenWidth < ScreenSize.large) {
+            $("#advantages").removeClass("align-justify");
+            if (sliderAdvantages == null) {
+                sliderAdvantages = $("#advantages").bxSlider({
+                    oneToOneTouch: true,
+                    auto: false,
+                    hideControlOnEnd: true,
+                    maxSlides: 100,
+                    slideWidth: 200,
+                    moveSlides: 0,
+                    pager: false,
+                    speed: 200,
+                    infiniteLoop: false,
+                    useCSS: false
+                });
+            }
+        } else {
+            $("#advantages").addClass("align-justify");
+            if (sliderAdvantages != null) {
+                sliderAdvantages.destroySlider();
+                sliderAdvantages = null;
+            }
+        }
+    }
+    reInit();
+    $(window).resize(reInit);
+
+    function showMenu(updateButtonsVisibility = true) {
+        if (updateButtonsVisibility) {
+            $(".button-show-menu").css("display", "none");
+            $(".button-hide-menu").css("display", "inline-block");
+        }
+        $(".small-menu").css("left", "0");
+        $("body").css("overflow", "hidden");
+    }
+
+    function hideMenu(updateButtonsVisibility = true) {
+        if (updateButtonsVisibility) {
+            $(".button-show-menu").css("display", "inline-block");
+            $(".button-hide-menu").css("display", "none");
+        }
+        $(".small-menu").css("left", "99999px");
+        $("body").css("overflow", "auto");
+    }
+
+    hideMenu();
+</script>
+
+</body>
+</html>
