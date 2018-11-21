@@ -18,7 +18,8 @@
       background-color: white; }
     .card-advantage-wrapper .card-advantage h4 {
       padding: 10px 0 0 0;
-      text-align: center; }
+      text-align: center;
+      color: #10376a; }
     .card-advantage-wrapper .card-advantage:hover {
       background: linear-gradient(40deg, #f9f9f9, #f9f9f9);
       cursor: pointer;
