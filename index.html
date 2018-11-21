@@ -23,6 +23,7 @@
             5px;">
                 <span class="header-time-block align-left">14 Ноября 2018 г. 12 <b>Четная</b> нед.</span>
                 <div class="inline-block grid-x align-middle">
+                    <a href="#" class="header-link"><i class="fas fa-user"></i>Личный кабинет</a>
                     <a href="#" class="header-link"><i class="far fa-calendar-alt"></i>Расписание</a>
                     <span class="language-block">
                         <img src="/assets/img/eye-icon.png">
@@ -30,16 +31,18 @@
                     ><span class="language-block">
                         <img src="/assets/img/russian-icon.png">
                     </span
-                    ><form type="GET" action="#" class="inline-block"><input class="header-input-search" type="text"
-                                                          placeholder="Поиск...">
-                    <submit class="search-button"><i class="fas fa-search"></i></submit></form>
+                    >
+                    <form type="GET" action="#" class="inline-block"><input class="header-input-search" type="text"
+                                                                            placeholder="Поиск...">
+                        <submit class="search-button"><i class="fas fa-search"></i></submit>
+                    </form>
                 </div>
             </div>
         </div>
         <div class="header-menu">
             <div class="limit-block">
-                <nav class="row content-indent align-middle" style="position: relative;">
-                    <img src="/assets/img/etu-logo.svg" class="logo-icon">
+                <nav class="row content-indent align-middle align-justify" style="position: relative;">
+                    <a href="#" class="inline-block"><img src="/assets/img/etu-logo-blue.svg" class="logo-icon"></a>
                     <ul class="menu">
                         <li><a href="#" class="menu-item">Поступающим</a></li>
                         <li><a href="#" class="menu-item">Студентам</a></li>
@@ -67,8 +70,8 @@
     </div>
     <div class="toolbar hide-for-large">
         <div class="grid-x align-justify align-middle">
-            <a class="inline-block" href="#"><img class="logo" src="/assets/img/etu-logo.svg"></a>
-            <span class="header-time-block white">14 Ноября 2018 г. 12 <b>Четная</b> нед.</span>
+            <a class="inline-block" href="#"><img class="logo" src="/assets/img/etu-logo-blue.svg"></a>
+            <span class="header-time-block">14 Ноября 2018 г. 12 <b>Четная</b> нед.</span>
             <div>
                 <span class="action-button button-show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></span>
                 <span class="action-button button-hide-menu" onclick="hideMenu()"
@@ -76,7 +79,7 @@
             </div>
         </div>
     </div>
-    <div class="small-menu hide-for-large grid-y align-stretch">
+    <div class="small-menu hide-for-large">
         <div class="grid-x align-middle align-spaced menu-section">
             <a href="#" class="header-link"><i class="far fa-calendar-alt"></i>Расписание</a>
             <a href="#" class="header-link"><i class="far fa-eye"></i>Для слабовидящих</a>
@@ -85,7 +88,37 @@
         <div class="menu-section">
             <form type="GET" action="#" class="inline-block"><input class="header-input-search" type="text"
                                                                     placeholder="Поиск...">
-                <submit class="search-button"><i class="fas fa-search"></i></submit></form>
+                <submit class="search-button"><i class="fas fa-search"></i></submit>
+            </form>
+        </div>
+        <div class="grid-x menu-section">
+            <div class="small-12 medium-6">
+                <ul class="content-indent">
+                    <li><a class="menu-item" href="https://etu.ru/ru/abiturientam/">Поступающим</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/studentam/">Студентам</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/vypusknikam/">Выпускникам</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/sotrudnikam/">Сотрудникам</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/fakultety/">Факультеты и кафедры</a></li>
+                </ul>
+            </div>
+            <div class="small-12 medium-6">
+                <ul class="content-indent">
+                    <li><a class="menu-item" href="https://etu.ru/ru/obrazovatelnaya-deyatelnost/">Образование</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/nauchnaya-i-innovacionnaya-deyatelnost/">Наука</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/mezhdunarodnaya-deyatelnost/">Международная деятельность</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/">Воспитание и социальная деятельность</a></li>
+                    <li><a class="menu-item" href="https://etu.ru/ru/povyshenie-kvalifikacii/">Повышение квалификации</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-section">
+            <div class="grid-x align-spaced">
+                <a href="https://vk.com/spbsetu" class="social-link"><i class="fab fa-vk"></i></a>
+                <a href="https://www.instagram.com/leti_official/" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/spbgetu" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/spbetu" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/Saint-Petersburg-Electrotechnical-University-380877098708544/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            </div>
         </div>
     </div>
 </header>
@@ -113,7 +146,7 @@
                            «ЛЭТИ» – образовательный центр с мировым именем, в котором обучается около 9000 студентов,
                            проходящих
                            подготовку по направлениям бакалавриата, специалитета и программам магистратуры.</p>
-                        <button class="button green">Список факультетов</button>
+                        <a class="button green" href="https://etu.ru/ru/fakultety/">Список факультетов</a>
                     </div>
                 </div>
             </div>
@@ -124,18 +157,22 @@
                             <div class="image"
                                  style="background-image: url(/assets/img/main-news/competition-winners.jpg);"></div>
                             <div class="text-container">
-                                <h3>Захватили «флаг»<a href="#" class="button-news">Читать дальше</a></h3>
+                                <h3>Захватили «флаг»<a href="https://etu.ru/ru/obrazovatelnaya-deyatelnost/novosti/zahvatili-flag" class="button-news">Читать дальше</a></h3>
                                 <p>Будущие специалисты по информационной безопасности из ЛЭТИ стали лучшими в
                                    Санкт-Петербурге</p>
                             </div>
                         </div>
                         <div class="main-news-item">
-                            <div class="image"
-                                 style="background-image: url(/assets/img/main-news/competition-winners.jpg);"></div>
+                            <div class="image size-contain"
+                                 style="background-image: url(/assets/img/main-news/spanish-lection.jpg);"></div>
+                            <a href="https://etu.ru/ru/universitet/novosti-i-obyavleniya/nedelya-ispanii-v-leti" class="button-news bottom-right">Подробнее</a>
+                        </div>
+                        <div class="main-news-item">
+                            <div class="image size-contain"
+                                 style="background-image: url(/assets/img/main-news/sport-1.jpg);"></div>
                             <div class="text-container">
-                                <h3>Захватили «флаг»<a href="#" class="button-news">Подробнее</a></h3>
-                                <p>Будущие специалисты по информационной безопасности из ЛЭТИ стали лучшими в
-                                   Санкт-Петербурге</p>
+                                <h3>Сильнее всех<a href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/novosti/student-peterburgskogo-vuza-pobeditel-etapa-kubka-mira-po-armliftingu" class="button-news">Читать дальше</a></h3>
+                                <p>Студент петербургского вуза – победитель этапа Кубка мира по армлифтингу</p>
                             </div>
                         </div>
                     </div>
@@ -149,9 +186,9 @@
             <div class="page-section-header grid-x align-left">
                 <h2>Поступающим</h2>
                 <div>
-                    <a class="link-label">Олимпиады школьников</a
-                    ><a class="link-label">День открытых дверей</a
-                    ><a class="link-label">Студенческие олимпиады</a>
+                    <a class="link-label" href="https://etu.ru/ru/abiturientam/olimpiady-shkolnikov/">Олимпиады школьников</a
+                    ><a class="link-label" href="https://etu.ru/ru/abiturientam/dni-otkrytyh-dverey/">День открытых дверей</a
+                ><a class="link-label" href="https://etu.ru/ru/obrazovatelnaya-deyatelnost/predmetnye-studencheskie-olimpiady1/">Студенческие олимпиады</a>
                 </div>
             </div>
             <p>Университет занимает 8-е место среди технических вузов России и 2-е место среди технических
@@ -162,44 +199,44 @@
         </div>
         <div class="grid-x align-stretch" id="advantages">
             <div class="large-2 card-advantage-wrapper">
-                <div class="card-advantage">
+                <a class="card-advantage" href="https://etu.ru/ru/fakultety/voennaya-kafedra/o-voennoj-kafedre">
                     <div class="grid-x align-center">
                         <img src="http://cdn.onlinewebfonts.com/svg/img_506139.png">
                     </div>
                     <h4>Военная кафедра</h4>
-                </div>
+                </a>
             </div>
             <div class="large-2 card-advantage-wrapper">
-                <div class="card-advantage">
+                <a class="card-advantage" href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/granty-podderzhki">
                     <div class="grid-x align-center">
                         <img src="https://image.flaticon.com/icons/png/512/39/39748.png">
                     </div>
                     <h4>Гранты поддержки</h4>
-                </div>
+                </a>
             </div>
             <div class="large-2 card-advantage-wrapper">
-                <div class="card-advantage">
+                <a class="card-advantage" href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/programmy-dvuh-diplomov">
                     <div class="grid-x align-center">
                         <img src="https://game-icons.net/icons/delapouite/originals/png/000000/transparent/diploma.png">
                     </div>
                     <h4>Программы &laquo;Двух димломов&raquo;</h4>
-                </div>
+                </a>
             </div>
             <div class="large-2 card-advantage-wrapper">
-                <div class="card-advantage">
+                <a class="card-advantage" href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/obshezhitiya/">
                     <div class="grid-x align-center">
                         <img src="https://png.pngtree.com/svg/20160304/dormitory_924980.png">
                     </div>
                     <h4>Общежития</h4>
-                </div>
+                </a>
             </div>
             <div class="large-2 card-advantage-wrapper">
-                <div class="card-advantage">
+                <a class="card-advantage" href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/tvorcheskie-kollektivy-ckvr/">
                     <div class="grid-x align-center">
                         <img src="/assets/img/happy-peoples.png">
                     </div>
                     <h4>Досуг студентов</h4>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -211,14 +248,14 @@
                         <div class="grid-y align-justify full-height">
                             <div><h4>Бакалавриат</h4>
                                 <ol>
-                                    <li><a href="#">Гранты поддержки</a> первокурсникам.</li>
-                                    <li>Иногородним предоставляются места в <a href="#">общежитиях университета</a>.
+                                    <li><a href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/granty-podderzhki">Гранты поддержки</a> первокурсникам.</li>
+                                    <li>Иногородним предоставляются места в <a href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/obshezhitiya/">общежитиях университета</a>.
                                     </li>
-                                    <li>Получите звание лейтенанта запаса, пройдя обучение на <a href="#">военной
+                                    <li>Получите звание лейтенанта запаса, пройдя обучение на <a href="https://etu.ru/ru/fakultety/voennaya-kafedra/o-voennoj-kafedre">военной
                                                                                                           кафедре</a>
                                         университета.
                                     </li>
-                                    <li>Более 20 объединений, студий и клубов <a href="#">организуют досуг</a>
+                                    <li>Более 20 объединений, студий и клубов <a href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/tvorcheskie-kollektivy-ckvr/">организуют досуг</a>
                                         студентов
                                         вне
                                         учёбы.
@@ -228,7 +265,7 @@
                                 </ol>
                             </div>
                             <div class="grid-x align-middle">
-                                <button class="button green">Подробнее</button>
+                                <a class="button green" href="https://etu.ru/ru/abiturientam/napravleniya-podgotovki/bakalavriat/">Подробнее</a>
                                 <p class="button-additional-info">
                                     +7 812 325-87-05, +7 812 346-29-23<br>
                                     prcom@etu.ru
@@ -243,27 +280,27 @@
                             <div>
                                 <h4>Магистратура</h4>
                                 <ol>
-                                    <li>Востребованные и перспективные <a href="#">образовательные программы</a>
+                                    <li>Востребованные и перспективные <a href="https://etu.ru/ru/abiturientam/napravleniya-podgotovki/magistratura/">образовательные программы</a>
                                         магистров.
                                     </li>
                                     <li>Возможность совмещать работу и учёбу. Помощь при трудоустройстве.</li>
-                                    <li>Студентам и поступающим предоставляются места в одном из 7
-                                        <a href="#">общежитий</a>
+                                    <li>Студентам и поступающим предоставляются места в одном из 11
+                                        <a href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/obshhezhitiya">общежитий</a>
                                         университета.
                                     </li>
                                     <li>Выплачиваются стипендии, оказывается медицинская и социальная поддержка.
                                     </li>
-                                    <li><a href="#">Программы двойного диплома</a>. Возможность прохождения
+                                    <li><a href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/programmy-dvuh-diplomov">Программы двойного диплома</a>. Возможность прохождения
                                                                                   зарубежных
                                                                                   стажировок.
                                     </li>
-                                    <li>Олимпиады и другие <a href="#">мероприятия</a> для поступающих в
+                                    <li>Олимпиады и другие <a href="https://etu.ru/ru/abiturientam/priem-v-magistraturu/meropriyatiya-dlya-postupayushih-v-magistraturu">мероприятия</a> для поступающих в
                                         магистратуру.
                                     </li>
                                 </ol>
                             </div>
                             <div class="grid-x align-middle">
-                                <button class="button green">Подробнее</button>
+                                <a class="button green" href="https://etu.ru/ru/abiturientam/priem-v-magistraturu/">Подробнее</a>
                                 <p class="button-additional-info">
                                     +7 812 325-87-05, +7 964 322-32-87<br>
                                     prcom@etu.ru
@@ -278,23 +315,24 @@
                             <div>
                                 <h4>Аспирантура</h4>
                                 <ol>
-                                    <li>Востребованность и перспективность <a href="#">14 направлений подготовки</a>
+                                    <li>Востребованность и перспективность <a href="https://etu.ru/ru/abiturientam/napravleniya-podgotovki/aspirantura">14 направлений подготовки</a>
                                         аспирантов.
                                     </li>
                                     <li>Возможность совмещать работу и учёбу. Помощь при трудоустройстве.</li>
-                                    <li>Обучающимся и поступающим предоставляются места в одном из 7 <a href="#">общежитий
+                                    <li>Обучающимся и поступающим предоставляются места в одном из 11 <a
+                                            href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/obshhezhitiya">общежитий
                                                                                                                  университета</a>.
                                     </li>
                                     <li>Выплачиваются стипендии, оказывается медицинская и социальная поддержка.
                                     </li>
-                                    <li><a href="#s">Программы двойного диплома</a>. Возможность прохождения
+                                    <li><a href="https://etu.ru/ru/abiturientam/preimushestva-spbgetu/programmy-dvuh-diplomov">Программы двойного диплома</a>. Возможность прохождения
                                                                                    зарубежных
                                                                                    стажировок.
                                     </li>
                                 </ol>
                             </div>
                             <div class="grid-x align-middle">
-                                <button class="button green">Подробнее</button>
+                                <a class="button green" href="https://etu.ru/ru/abiturientam/priem-v-aspiranturu/">Подробнее</a>
                                 <p class="button-additional-info">
                                     +7 812 346-47-34,<br>
                                     prcom@etu.ru
@@ -335,55 +373,55 @@
                     <a href="#" class="inline-block"><img class="footer-logo-img"
                                                           src="/assets/img/etu-logo-gray.svg"></a>
                     <div class="grid-x align-center">
-                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://vk.com/spbsetu" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="https://www.instagram.com/leti_official/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/spbgetu" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/spbetu" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/Saint-Petersburg-Electrotechnical-University-380877098708544/" class="social-link"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </div>
             <div class="footer-section large-3 medium-4 small-6">
-                <h5 class="footer-section-header">Поступающим</h5>
+                <h5 class="footer-section-header" href="http://etu.test/#">Поступающим</h5>
                 <ul>
-                    <li><a class="footer-link">Контакты</a></li>
-                    <li><a class="footer-link">Бакалавриат</a></li>
-                    <li><a class="footer-link">Магистратура</a></li>
-                    <li><a class="footer-link">Аспирантура</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/universitet/kontakty/">Контакты</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/abiturientam/napravleniya-podgotovki/bakalavriat/">Бакалавриат</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/abiturientam/priem-v-magistraturu/">Магистратура</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/abiturientam/priem-v-aspiranturu/">Аспирантура</a></li>
                 </ul>
                 <div class="show-for-small-only">
                     <hr>
                     <h5 class="footer-section-header">Полезные ссылки</h5>
                     <ul>
-                        <li><a class="footer-link">Нормативные документы</a></li>
-                        <li><a class="footer-link">Сведения об образовательной организации</a></li>
-                        <li><a class="footer-link">Минобрнауки России</a></li>
-                        <li><a class="footer-link">Обработка персональных данных</a></li>
-                        <li><a class="footer-link">Портал трудоустройства</a></li>
+                        <li><a class="footer-link" href="https://etu.ru/ru/universitet/normativnye-dokumenty/">Нормативные документы</a></li>
+                        <li><a class="footer-link" href="https://etu.ru/sveden/">Сведения об образовательной организации</a></li>
+                        <li><a class="footer-link" href="https://minobrnauki.gov.ru/">Минобрнауки России</a></li>
+                        <li><a class="footer-link" href="https://etu.ru/assets/files/sotrudniku/Prikazi/politika-v-otnoshenii-personalnyh-dannyh.pdf">Обработка персональных данных</a></li>
+                        <li><a class="footer-link" href="https://etu.ru/ru/studentam/vasha-karera/dopolnitelnaya-podgotovka-studentov">Портал трудоустройства</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-section large-3 medium-4 small-6 padding-4">
                 <h5 class="footer-section-header">Навигация</h5>
                 <ul>
-                    <li><a class="footer-link">Студентам</a></li>
-                    <li><a class="footer-link">Выпускникам</a></li>
-                    <li><a class="footer-link">Сотрудникам</a></li>
-                    <li><a class="footer-link">Образование</a></li>
-                    <li><a class="footer-link">Наука</a></li>
-                    <li><a class="footer-link">Международная деятельность</a></li>
-                    <li><a class="footer-link">Социальная деятельность</a></li>
-                    <li><a class="footer-link">Повышение квалификации</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/studentam/">Студентам</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/vypusknikam/">Выпускникам</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/sotrudnikam/">Сотрудникам</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/obrazovatelnaya-deyatelnost/">Образование</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/nauchnaya-i-innovacionnaya-deyatelnost/">Наука</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/mezhdunarodnaya-deyatelnost/">Международная деятельность</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/vospitatelnaya-i-socialnaya/">Социальная деятельность</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/povyshenie-kvalifikacii/">Повышение квалификации</a></li>
                 </ul>
             </div>
             <div class="footer-section large-3 medium-4 hide-for-small-only">
                 <h5 class="footer-section-header">Полезные ссылки</h5>
                 <ul>
-                    <li><a class="footer-link">Нормативные документы</a></li>
-                    <li><a class="footer-link">Сведения об образовательной организации</a></li>
-                    <li><a class="footer-link">Минобрнауки России</a></li>
-                    <li><a class="footer-link">Обработка персональных данных</a></li>
-                    <li><a class="footer-link">Портал трудоустройства</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/universitet/normativnye-dokumenty/">Нормативные документы</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/sveden/">Сведения об образовательной организации</a></li>
+                    <li><a class="footer-link" href="https://minobrnauki.gov.ru/">Минобрнауки России</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/assets/files/sotrudniku/Prikazi/politika-v-otnoshenii-personalnyh-dannyh.pdf">Обработка персональных данных</a></li>
+                    <li><a class="footer-link" href="https://etu.ru/ru/studentam/vasha-karera/dopolnitelnaya-podgotovka-studentov">Портал трудоустройства</a></li>
                 </ul>
             </div>
         </div>
@@ -396,6 +434,7 @@
     var sliderPartners;
     var sliderComing;
     var sliderAdvantages;
+
     function reInit() {
         var screenWidth = $(window).width();
 
@@ -437,7 +476,7 @@
                 .removeClass("grid-x")
                 .addClass("grid-y");
             $("#coming-block-wrapper")
-                .attr("style",  "margin-left: 0")
+                .attr("style", "margin-left: 0")
                 .removeClass("slider-side-shadow-wrapper");
         } else {
             $("#coming-block")
@@ -445,7 +484,7 @@
                 .removeClass("grid-y");
             $("#coming-block-wrapper")
                 .addClass("slider-side-shadow-wrapper")
-                .attr("style",  "margin-left: -10px");
+                .attr("style", "margin-left: -10px");
             if (sliderComing == null) {
                 sliderComing = $("#coming-block")
                     .bxSlider({
@@ -488,7 +527,28 @@
                 sliderAdvantages = null;
             }
         }
+
+        var months = [
+            "января",
+            "февраля",
+            "марта",
+            "апреля",
+            "мая",
+            "июня",
+            "июля",
+            "августа",
+            "сентабря",
+            "октября",
+            "ноября",
+            "декабря"
+        ];
+
+        var date = new Date();
+        var text = "" + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear() +
+            ". <b>Четная</b> неделя";
+        $(".header-time-block").html(text);
     }
+
     reInit();
     $(window).resize(reInit);
 

@@ -17,6 +17,9 @@
     transform: translate(-50%, -50%)
     z-index: 1
     display: inline-block
+    background-color: #f9f9fa
+    &.size-contain
+      background-size: contain
 
   h3, p, .text-container
     position: relative
@@ -38,3 +41,10 @@
     width: calc(100%)
     padding: 30px 60px 10px 60px
     background-color: #ffffffa1
+
+  .button-news
+    &.bottom-right
+      position: absolute !important
+      bottom: 25px
+      right: 20px
+      z-index: 5

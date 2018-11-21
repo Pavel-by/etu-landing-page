@@ -15,7 +15,10 @@
     background-size: cover;
     transform: translate(-50%, -50%);
     z-index: 1;
-    display: inline-block; }
+    display: inline-block;
+    background-color: #f9f9fa; }
+    .main-news-item .image.size-contain {
+      background-size: contain; }
   .main-news-item h3, .main-news-item p, .main-news-item .text-container {
     position: relative;
     z-index: 2; }
@@ -33,5 +36,10 @@
     width: calc(100%);
     padding: 30px 60px 10px 60px;
     background-color: #ffffffa1; }
+  .main-news-item .button-news.bottom-right {
+    position: absolute !important;
+    bottom: 25px;
+    right: 20px;
+    z-index: 5; }
 
 /*# sourceMappingURL=news.css.map */

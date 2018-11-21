@@ -2,24 +2,24 @@
   position: relative; }
 .high-screen-header .header-link {
   font-size: 13px;
-  color: black; }
+  color: black;
+  margin: 0 5px;
+  display: inline-block; }
   .high-screen-header .header-link i {
     margin-right: 5px;
     display: inline-block; }
 
-.header-menu {
-  background: linear-gradient(40deg, #101844, #18297b);
-  /*nav
-   * border-bottom: 1px solid #efefef */ }
-  .header-menu .menu-item {
-    padding: 20px 15px;
-    font-size: 13px;
-    margin: 0;
-    font-weight: bold;
-    color: #dddddd; }
-    .header-menu .menu-item:hover {
-      color: #bebebe;
-      text-decoration: none !important; }
+.header-menu nav {
+  border-bottom: 1px solid #efefef; }
+.header-menu .menu-item {
+  padding: 20px 15px;
+  font-size: 13px;
+  margin: 0;
+  font-weight: bold;
+  color: #3c3c3c; }
+  .header-menu .menu-item:hover {
+    color: #4a4a4a;
+    text-decoration: none !important; }
 
 .secondary-menu .secondary-menu-item {
   display: inline-block;
@@ -44,7 +44,10 @@
   left: 0;
   width: 100%;
   z-index: 100;
-  background: linear-gradient(40deg, #101844, #18297b); }
+  background-color: white;
+  border-bottom: 1px solid #f2f2f2; }
+  .toolbar > div {
+    flex-wrap: nowrap !important; }
   .toolbar .logo {
     height: 50px;
     display: inline-block;
@@ -59,7 +62,7 @@
     cursor: pointer;
     font-size: 30px;
     line-height: 30px;
-    color: white; }
+    color: #1d1d1d; }
 
 .small-menu {
   position: fixed;
@@ -72,6 +75,12 @@
   width: 100%;
   z-index: 99;
   overflow: auto; }
+  .small-menu .social-link {
+    display: inline-block;
+    color: gray;
+    font-size: 25px;
+    margin: 2px;
+    padding: 0; }
   .small-menu form {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -90,19 +99,30 @@
     padding: 15px 10px; }
   .small-menu .header-link {
     font-size: 13px;
-    color: black; }
+    color: black;
+    margin: 0 5px;
+    display: inline-block; }
     .small-menu .header-link i {
       margin-right: 5px;
       display: inline-block; }
   .small-menu .menu-item {
     display: block;
     width: 100%;
-    padding: 5px 10px;
+    padding: 10px 10px 10px 0;
     font-size: 15px;
     color: black;
-    font-weight: bold;
-    text-align: center; }
-    .small-menu .menu-item:hover {
-      color: #2b2b2b; }
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #ebebeb; }
+    .small-menu .menu-item:hover, .small-menu .menu-item:active {
+      color: #2b2b2b;
+      background-color: #f7f7f7; }
+  .small-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .small-menu ul li {
+      padding: 0;
+      margin: 0; }
 
 /*# sourceMappingURL=header-menu.css.map */
