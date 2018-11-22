@@ -59,15 +59,25 @@ footer {
     display: inline-block;
     padding: 0;
     margin: 4px 10px; }
-    footer .social-link .fa-vk:hover {
+    footer .social-link .fa-vk:hover,
+    footer .social-link .fa-vk:focus,
+    footer .social-link .fa-vk:active {
       color: #4a76a8 !important; }
-    footer .social-link .fa-twitter:hover {
+    footer .social-link .fa-twitter:hover,
+    footer .social-link .fa-twitter:focus,
+    footer .social-link .fa-twitter:active {
       color: #1ac7d8 !important; }
-    footer .social-link .fa-youtube:hover {
+    footer .social-link .fa-youtube:hover,
+    footer .social-link .fa-youtube:focus,
+    footer .social-link .fa-youtube:active {
       color: red !important; }
-    footer .social-link .fa-facebook-f:hover {
+    footer .social-link .fa-facebook-f:hover,
+    footer .social-link .fa-facebook-f:focus,
+    footer .social-link .fa-facebook-f:active {
       color: #3b5998 !important; }
-    footer .social-link .fa-instagram:hover {
+    footer .social-link .fa-instagram:hover,
+    footer .social-link .fa-instagram:focus,
+    footer .social-link .fa-instagram:active {
       color: #ff7ea3 !important; }
 
 /*# sourceMappingURL=footer.css.map */

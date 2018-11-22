@@ -81,6 +81,26 @@
     font-size: 25px;
     margin: 2px;
     padding: 0; }
+    .small-menu .social-link .fa-vk:hover,
+    .small-menu .social-link .fa-vk:focus,
+    .small-menu .social-link .fa-vk:active {
+      color: #4a76a8 !important; }
+    .small-menu .social-link .fa-twitter:hover,
+    .small-menu .social-link .fa-twitter:focus,
+    .small-menu .social-link .fa-twitter:active {
+      color: #1ac7d8 !important; }
+    .small-menu .social-link .fa-youtube:hover,
+    .small-menu .social-link .fa-youtube:focus,
+    .small-menu .social-link .fa-youtube:active {
+      color: red !important; }
+    .small-menu .social-link .fa-facebook-f:hover,
+    .small-menu .social-link .fa-facebook-f:focus,
+    .small-menu .social-link .fa-facebook-f:active {
+      color: #3b5998 !important; }
+    .small-menu .social-link .fa-instagram:hover,
+    .small-menu .social-link .fa-instagram:focus,
+    .small-menu .social-link .fa-instagram:active {
+      color: #ff7ea3 !important; }
   .small-menu form {
     width: 100%;
     -webkit-box-sizing: border-box;

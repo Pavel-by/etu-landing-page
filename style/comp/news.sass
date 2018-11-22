@@ -16,12 +16,15 @@
     .image
       width: 100%
       height: 300px
+      max-height: 50vh
       background-position: center
       background-repeat: no-repeat
       background-size: cover
       display: inline-block
     h3
     p
+      @media (max-height: 450px)
+        display: none !important
 
 .main-news-item
   display: inline-block
